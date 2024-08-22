@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { scrape } from './utils';
 
 function App() {
+  scrape();
   return (
     <div className="App">
       <header className="App-header">
